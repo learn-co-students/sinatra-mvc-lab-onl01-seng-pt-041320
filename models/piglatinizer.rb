@@ -1,9 +1,8 @@
 class PigLatinizer
     attr_accessor :words
 
-    def initialize(words: nil)
+    def initialize
         @words = words
-        # binding.pry
     end
 
     def piglatinize(words)
