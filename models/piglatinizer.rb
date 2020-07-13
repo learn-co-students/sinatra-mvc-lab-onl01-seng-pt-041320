@@ -19,7 +19,7 @@ class PigLatinizer
         pig = []
         if word
             first_letter = word[0] 
-            if first_letter.scan(/[aeiouAEIOU]/).count == 1 && first_letter ==
+            if first_letter.scan(/[aeiouAEIOU]/).count == 1
                 pig_latin = words + "way"
             elsif
                 until word[0].scan(/[aeiouAEIOU]/).count == 1 && word
